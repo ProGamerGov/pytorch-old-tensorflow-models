@@ -561,4 +561,3 @@ class InceptionV3Keras(nn.Module):
         predictions     = self.predictions(avg_pool_flatten)
         predictions_activation = F.softmax(predictions)
         return predictions_activation
-
